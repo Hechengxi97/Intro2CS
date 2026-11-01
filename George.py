@@ -16,3 +16,5 @@ total_slices_needed=present_student*slices_per_student
 cost_per_student=500/present_student
 boxes_to_order=total_slices_needed//8
 leftover_slices=(boxes_to_order*8)%present_student
+if leftover_slices>0:
+    boxes_to_order+=1
