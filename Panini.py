@@ -8,7 +8,7 @@ print(plan)
 plan.append("meeting")
 plan.insert(0,"walking")
 plan.remove("gaming")
-weekend_activities_2=[]
-weekend_activities_2.extend(plan)
-print(weekend_activities_2)
+weekend_activity_2=[]
+weekend_activity_2.extend(plan)
+print(weekend_activity_2)
 
