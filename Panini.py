@@ -12,3 +12,11 @@ weekend_activity_2=[]
 weekend_activity_2.extend(plan)
 print(weekend_activity_2)
 
+city=("poznan","poland",52.41,16.93)
+print(city[1])
+print(city[-1])
+print(type(city))
+urban,nation,latitude,longitude=city
+print(urban)
+print(nation)
+
