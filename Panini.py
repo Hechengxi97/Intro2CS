@@ -16,7 +16,10 @@ city=("poznan","poland",52.41,16.93)
 print(city[1])
 print(city[-1])
 print(type(city))
-urban,nation,latitude,longitude=city
+urban,country,latitude,longitude=city
 print(urban)
-print(nation)
-
+print(country)
+city_list=list(city)
+city_list[1]="China"
+city=tuple(city_list)
+print(city)
