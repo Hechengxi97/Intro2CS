@@ -32,3 +32,17 @@ both=mine.intersection(friend)
 print(both)
 only_one=mine.difference(friend)
 print(only_one)
+
+
+
+word={"cat":"mao","dog":"gou","fish":"yu","pig":"zhu"}
+print(word["cat"])
+print(len(word))
+word["bird"]="niao"
+word["cat"]="miao"
+print(word)
+word.update({"tiger":"laohu","monkey":"houzi"})
+print(word)
+print(list(word.keys()))
+print(list(word.values()))
+print(list(word.items()))
