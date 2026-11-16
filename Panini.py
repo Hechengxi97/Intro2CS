@@ -23,3 +23,12 @@ city_list=list(city)
 city_list[1]="China"
 city=tuple(city_list)
 print(city)
+
+mine={"pizza","taccos","ramen","salad","burgers"}
+friend={"pizza","sushi","tacos", "pierogi","pasta"}
+all=mine.union(friend)
+print(all)
+both=mine.intersection(friend)
+print(both)
+only_one=mine.difference(friend)
+print(only_one)
